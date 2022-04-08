@@ -1,24 +1,49 @@
-body
+#heading
 {
-background-position: center;
-background-size: cover;
+    font-size: 33px;
 }
-
-.heading
+#head
 {
-font-size: 23px;
-width: 100%;
-margin: 0px;
+    width: 100%;
+    line-height: 1;
 }
-
-#status , #number_of_objects
+#note
 {
-font-size: 18px;
+    font-size: 15px;
+    color: black;
 }
-
+#object_name_input
+{
+    width: 300px;
+    margin-top: 10px;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+}
+#object_name_div
+{
+    margin-top: 30px;
+    color: white;
+}
+#status
+{
+    margin-right: 10px;
+    font-size: 23px;
+}
+#object_status
+{
+    font-size: 23px;
+}
 canvas
 {
-box-shadow: 5px 5px 5px lightgrey;
-border-radius: 10px;
-margin-top: 180px;
+    border-color: yellow;
+    box-shadow: 10px 10px 7px 5px rgb(53, 53, 53);
+    padding: 0%;
+    margin-bottom: 120px;
+    margin-top: -168px;
+    border-radius: 15px;
+}
+body
+{
+    background-size: cover;
 }
